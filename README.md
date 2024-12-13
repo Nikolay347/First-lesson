@@ -1,3 +1,7 @@
-Test description for Les1...
-Homework is presented on line 1.
-Examples on lines 3 and 4 are presented additionally for other tasks.
+The Project includes:
+    1. Directories corresponding to course names.
+    2. Each directory includes folders whose names correspond to the
+numbers of studying lessons.
+    3. Each folder contains files for studying the material and completing
+homework for the corresponding lesson.
+
