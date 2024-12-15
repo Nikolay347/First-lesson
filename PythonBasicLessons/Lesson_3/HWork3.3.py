@@ -1,5 +1,4 @@
 #The program is designed and suitable for all examples given in the homework...
-
 ###
 slist = []
 number = len(slist)
