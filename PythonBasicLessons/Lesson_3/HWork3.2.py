@@ -17,6 +17,7 @@ if nms2 != 0:
     print(lst2)
 else:
     print(lst2)
+
 ##
 lst3 = []
 nms3 = len(lst3)
@@ -26,6 +27,7 @@ if nms3 != 0:
     print(lst3)
 else:
     print(lst3)
+
 ##
 lst4 = [7, 12, 19, 29, 33]
 nms4 = len(lst4)
