@@ -1,4 +1,5 @@
 #The program template is substituted fo each homework example...
+
 ###
 lst1 = [18, 42, 25, 15]
 nms1 = len(lst1)
