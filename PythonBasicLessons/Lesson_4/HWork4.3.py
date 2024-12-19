@@ -10,3 +10,4 @@ new_lst[0] = lst[0]
 new_lst[1] = lst[2]
 new_lst[2] = lst[-2]
 print(new_lst)
+
