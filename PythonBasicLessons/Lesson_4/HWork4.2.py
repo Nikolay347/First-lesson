@@ -8,3 +8,4 @@ else:
             new_lst1.append(i)
     new_lst2 = sum(new_lst1) * lst[-1]
     print(lst, ' => ',  new_lst2)
+
