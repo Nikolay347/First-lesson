@@ -1,4 +1,5 @@
 import string
+
 ht = list((input("Input date for hashtag: ")).title())
 
 for i in ht[:]:
