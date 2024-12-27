@@ -10,7 +10,6 @@ var1 = 0
 for i in rdok:
     if i in string_punctuation_without_ or i == " ":
         var1+=1
-
 if "_" in rdok and len(rdok) == 1:
     print(True)
     print("_")
