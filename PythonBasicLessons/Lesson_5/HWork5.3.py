@@ -10,6 +10,7 @@ ht1 = f"#{ht}"
 
 if len(ht1) > 140:
     ht1 = ht1[:140]
+
 print("->", ht1)
 print("Hashtag initial length", len(f"#{ht}"))
 print("Hashtag result length", len(ht1))
