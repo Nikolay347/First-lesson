@@ -1,5 +1,3 @@
-import string
-import copy
 
 number = input("Input some number: ")
 
