@@ -8,7 +8,7 @@ def add_one(number):
         new_numb.append(int(i))
     print(new_numb)
 
-add_one([5,6,8,7])      #function calling
+add_one([5,6,8,7])          #function calling
 
 
 
