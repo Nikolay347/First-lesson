@@ -1,6 +1,12 @@
 #Checking whether a number is even
 def is_even(digit):
-    """ Checking whether a number is even """
+    """
+    Checking whether a number is even
+    :param digit: input date. Integer number.
+    :return: raising number to the power.
+    :conditions:True if the number is even, and False if the number is not even.
+    :output date: logical type.
+    """
     if digit % 2 == 0:
         return True
     else:
