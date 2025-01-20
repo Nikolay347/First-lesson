@@ -23,7 +23,6 @@ assert is_even(24945638940387**3) == False, 'Test3'
 #################################################################################################################
 
 #Var.#2:
-
 # def is_even(number):
 #     if not number & 1:                  # Found on the Internet as Lorentz invariance and covariance.
 #         print(True)
