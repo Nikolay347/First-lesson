@@ -14,7 +14,7 @@ def generate_cube_numbers(end):
     for i in range(2, end):
         if i**3 <= end:
             yield i**3
-            # x = i**3
+
     return
 
 print(list(generate_cube_numbers(100)))
