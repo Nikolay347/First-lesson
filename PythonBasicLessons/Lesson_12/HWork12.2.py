@@ -44,7 +44,7 @@ class Purchase:
         return f"User: {self.user}\nItems:{all_products}"
 
     # """
-    # User: Ivan Ivanov
+    # User: Tim Markovich
     # Items:
     # lemon: 4 pcs.
     # apple: 20 pcs.
