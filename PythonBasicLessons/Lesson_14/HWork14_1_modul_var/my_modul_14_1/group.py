@@ -14,8 +14,9 @@ class Group:
     def add_student(self, student):
         from datetime import datetime                       #import function datetime from datetime module
         if len(self.group) == self.student_limit:
-            raise GroupLimitReachedException(f"{str(datetime.now().strftime("%Y-%m-%d %H:%M:%S"))}\n Attempting to exceed the number {self.student_limit} of group! Fixation it at list in the log_Exception.txt. ", f"Received group: {str(gr)}")
+            raise GroupLimitReachedException(f"{str(datetime.now().strftime("%Y-%m-%d %H:%M:%S"))}\n Attempting to exceed the number {self.student_limit} of group! Fixation it at list in the log_Exception.txt. ", f"Received group: {str(gr)} {Group.__str__(self)}")
         self.group.add(student)
+
 
     def delete_student(self, last_name):
         for student in self.group.copy():
@@ -33,11 +34,7 @@ class Group:
             all_students += student.__str__() + "\n "
         return f'Number:{self.number} \n {all_students} '
 
-    def __str__(self):
-        all_students = ''
-        for student in self.group:
-            all_students += student.__str__() + "\n "
-        return f'Number:{self.number} \n {all_students} '
+
 
 gr = Group('PD1')
 

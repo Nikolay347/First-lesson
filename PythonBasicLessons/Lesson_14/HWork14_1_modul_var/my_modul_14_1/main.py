@@ -4,6 +4,7 @@
 from  student import Student
 from group import Group
 from group_lim_reach_exception import GroupLimitReachedException
+gr = Group('PD1')
 
 def main():
     st1 = Student('Male', 30, 'Steve', 'Jobs', 'AN142')
@@ -17,7 +18,7 @@ def main():
     st9 = Student('Male', 30, 'Daniel', 'Mur', 'AN142')
     st10 = Student('Female', 26, 'Helen', 'Lempi', 'AN145')
     st11 = Student('Female', 26, 'Unknown', 'Unknown', 'AN145')
-    gr = Group('PD1')
+
 
     try:
         gr.add_student(st1)
@@ -38,8 +39,7 @@ def main():
     except Exception as error:
         print(error)
 
-    # print(gr)
-    # if __name__ == '__main__':
-    #     main()
-# print(main())
-main()
+# print(gr)
+if __name__ == '__main__':      #Verification main.py as main file
+    main()
+
