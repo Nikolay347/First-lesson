@@ -28,8 +28,7 @@ class Group:
         from datetime import datetime
         if len(self.group) == self.student_limit:
             raise GroupLimitReachedException(
-                f"{str(datetime.now().strftime("%Y-%m-%d %H:%M:%S"))}\n Attempting to exceed the number {self.student_limit} of group! Fixation it at list in the log_Exception.txt. ",
-                f"Received group: {gr}")
+                f"{str(datetime.now().strftime("%Y-%m-%d %H:%M:%S"))}\n Attempting to exceed the number {self.student_limit} of group! Fixation it at list in the log_Exception.txt. ", f"Received group: {str(gr)} {Group.__str__(self)}")
         self.group.add(student)
 
     def delete_student(self, last_name):
@@ -55,7 +54,7 @@ class GroupLimitReachedException(Exception):    #Added for this HWork new class 
         self.log_error_data()
 
     def log_error_data(self):
-        with open("log_exceptions3.txt", "a") as file:
+        with open("../log_exceptions3.txt", "a") as file:
             file.write(f"\n".join(self.args)+ "\n")
 
 st1 = Student('Male', 30, 'Steve', 'Jobs', 'AN142')
