@@ -85,6 +85,9 @@ try:
 
 except GroupLimitReachedException as error:
     print(error)
-    # print(gr)
+    print(gr)
 except Exception as error:
     print(error)
+
+assert gr.find_student('Jobs') == st1
+print("All done!")
